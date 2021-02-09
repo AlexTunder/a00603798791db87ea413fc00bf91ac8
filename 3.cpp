@@ -15,9 +15,9 @@ int main(){
         else if(b <= c)
             bestArr[i] = b;
         else bestArr[i] = c;
-        if(result + bestArr[i] > 500) break;
+        if(result + bestArr[i] > 300) break;
         else result += bestArr[i];
-        if(result <= 500) ns++;
+        if(result <= 300) ns++;
     }
     printf("%i %i", ns, result);
     // std::cout << result << endl;
